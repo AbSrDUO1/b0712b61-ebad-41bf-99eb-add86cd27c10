@@ -7,6 +7,7 @@ import SplitAbout from '@/components/sections/about/SplitAbout';
 import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
+import { Leaf } from 'lucide-react';
 
 const assetMap = [{"id":"hero-image","url":"https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_346q1PwyWBLFgxn5R5gWYFVRO0Y/tmp/pizza-on-table-1760907020160-073e0a8c.jpg","alt":"pizza on table"},{"id":"about-image","url":"https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_346q1PwyWBLFgxn5R5gWYFVRO0Y/tmp/pizza-making-process-1760907024841-8e86c576.jpg","alt":"pizza making process"},{"id":"menu-item1-image","url":"https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_346q1PwyWBLFgxn5R5gWYFVRO0Y/tmp/pepperoni-pizza-1760907027332-03c61ddd.jpg","alt":"pepperoni pizza"},{"id":"menu-item2-image","url":"https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_346q1PwyWBLFgxn5R5gWYFVRO0Y/tmp/vegetarian-pizza-1760907030313-bb17f75a.jpg","alt":"vegetarian pizza"},{"id":"contact-image","url":"https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_346q1PwyWBLFgxn5R5gWYFVRO0Y/tmp/pizza-shop-interior-1760907033249-2b06ac92.jpg","alt":"pizza shop interior"}];
 
@@ -36,7 +37,7 @@ export default function Home() {
       <div id="about" data-section="about" className="scroll-mt-24">
         <div className="mx-auto px-4 md:px-6 ">
           <SplitAbout
-            bulletPoints={[{ title: "Quality Ingredients", description: "We use only the freshest ingredients.", icon: "Leaf" }, { title: "Expert Chefs", description: "Our chefs have years of pizza-making experience." }]}
+            bulletPoints={[{ title: "Quality Ingredients", description: "We use only the freshest ingredients.", icon: Leaf }, { title: "Expert Chefs", description: "Our chefs have years of pizza-making experience." }]}
             imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_346q1PwyWBLFgxn5R5gWYFVRO0Y/tmp/pizza-making-process-1760907024841-8e86c576.jpg"
           />
         </div>
