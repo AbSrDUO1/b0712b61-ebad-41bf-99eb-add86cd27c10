@@ -12,7 +12,7 @@ import {
   Nunito
 } from "next/font/google";
 import "./globals.css";
-import {PostHogWrapper} from "@/components/PostHogWrapper";
+import { PostHogWrapper } from "@/components/PostHogWrapper";
 import AuroraBackground from "@/components/background/AuroraBackground";
 
 const interTight = Inter_Tight({
